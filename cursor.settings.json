@@ -1,6 +1,6 @@
 {
     "makefile.configureOnOpen": true,
-    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.defaultProfile.osx": "fish",
     "editor.fontSize": 16,
     "workbench.colorTheme": "Visual Studio Light",
     "workbench.activityBar.orientation": "vertical",
