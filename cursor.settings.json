@@ -9,6 +9,27 @@
     "git.autofetch": true,
     "editor.formatOnSave": true,
     "editor.wordWrap": "on",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [{
+          "scope": "keyword.function.go",
+          "settings":{
+            "fontStyle": "bold",
+            "foreground": "#040700dc"
+          }
+        },{
+          "scope":"string.quoted.double.go",
+          "settings":{
+            "foreground": "#0000FF",
+            "fontStyle": "italic bold"
+          }
+        },{
+          "scope": "keyword.operator",
+          "settings": {
+            "foreground": "#FF0000",
+            "fontStyle": "bold"
+          }
+        }]
+  },
     "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
     }
